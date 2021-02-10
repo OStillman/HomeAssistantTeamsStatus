@@ -1,0 +1,1 @@
+Get-Content $env:APPDATA\Microsoft\Teams\logs.txt -Wait -Tail 0 | ? { $_ -match "(?<=StatusIndicatorStateService: Added )(\w+)" } | % { if($matches[0] -ne "NewActivity") {& "C:\Users\Owen Stillman\Desktop\TeamsScripts\TeamsStatus.ps1" $matches[0] }}
