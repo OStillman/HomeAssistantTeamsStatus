@@ -19,7 +19,7 @@ Before we start, thanks to the following for getting the majority of this going:
 
 What else do I use it for (Home Assistant Automation Configuration):
 
-- Home Assitant Toggle for Concentration required (for me this will play BBC Radio 1 if concentration **is not** needed, or BBC Radio 2 if concentration **is** required
+- Home Assitant Toggle for Concentration required allowing for me to play BBC Radio 1 if concentration **is not** needed, or BBC Radio 2 if concentration **is** required
 - On Away, Busy, Locked or Laptop Off stop the music
 - When back to availiable use the status of the Concentration toggle to play the correct Radio station
 
