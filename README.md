@@ -1,5 +1,10 @@
 # Home Assistant + Teams Status = Automation Glory
 
+Before we start, thanks to the following for getting the majority of this going:
+
+- (https://community.home-assistant.io/t/microsoft-teams-status/202388/38) - For the Teams Log, Powershell and Home Assistant Integration Code
+- (https://www.reddit.com/r/homeautomation/comments/lclidn/probably_the_most_overengineered_way_to_show_my/) - For the inspiration to give this a crack
+
 ## What does it do?
 
 - Tails the Teams Log for Status changes I.e. Away, Busy, Available etc.
