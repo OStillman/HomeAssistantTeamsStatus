@@ -1,0 +1,11 @@
+[Unit]
+Description=Start Teams Listener Service
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/Documents/TeamsStatus
+ExecStart=/usr/bin/python3.7 /home/pi/Documents/TeamsStatus/teams_status.py
+
+[Install]
+WantedBy=multi-user.target
