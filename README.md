@@ -18,4 +18,12 @@ This also controls music!
 - When back to availiable use the status of the Concentration toggle to play the correct Radio station
 
 ## How do I set this up?
-I'll try and explain this in the coming days, for now, I'm populating this Repo with the required files
+Please refer to the Wiki for a detailed setup flow. The general flow is:
+
+- Add PowerShell Scripts as required to Task Scheduler
+- Create Template Sensor in Home Assistant to take in Raw sensor details
+- Add Blinkt! code to Raspberry Pi with Blinkt!
+- Create Systemd services to run script each time
+- Add Home-Assistant Automations including:
+  - Actions to take on different statuses
+  - MQTT actions for Blinkt!
